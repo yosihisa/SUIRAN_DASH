@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\メニュー管理">
+      <UniqueIdentifier>{c1563bed-ada2-4506-ba4b-98d1cb871e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\メニュー管理">
+      <UniqueIdentifier>{8e72c008-18c6-498a-9577-76b2a0197a79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ソース\game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\key.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\Menu.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\score.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\BaseScene.cpp">
+      <Filter>ソース ファイル\メニュー管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\ISceneChanger.cpp">
+      <Filter>ソース ファイル\メニュー管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\SceneMgr.cpp">
+      <Filter>ソース ファイル\メニュー管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\load.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ソース\usbio2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ソース\GV.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\BaseScene.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\score.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\Game.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\ISceneChanger.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\SceneMgr.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\Menu.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\Task.h">
+      <Filter>ヘッダー ファイル\メニュー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ソース\usbio2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
